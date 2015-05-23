@@ -1,0 +1,41 @@
+doctype html
+html
+	head
+		title Dark Map
+		//- include ../j_piece/inheader
+		include ../j_piece/header
+		link(href="./css/index.css", rel="stylesheet")
+		// script(type="text/javascript", src="../lib/js/topojson.min.js")
+		// script(type="text/javascript", src="../lib/js/queue.min.js")
+		// script(type="text/javascript", src="../lib/js/colorbrewer.v1.min.js")
+		// script(type="text/javascript", src="./turf.min.js")
+		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false")
+		
+
+		
+	body
+		div.sideCol
+		div#map_container
+			div#message
+				span#bus_stop_name
+				span#bus_name
+			div#map
+		//- div.container
+		//- 	div#panel
+		//- 	div#map
+			//- div.row
+			//- 	div.col-lg-12
+			//- 		div.col-lg-6
+						
+			//- 		div.col-lg-6
+			//- 			h1. Hello there
+			//- 		//- div#map
+		
+		
+		
+
+		script(type="text/javascript", src="./js/transform.js")
+		script(type="text/javascript", src="./js/panel.js")
+		script(type="text/javascript", src="./js/5284.js")
+
+
